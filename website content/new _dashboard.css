@@ -1,0 +1,364 @@
+*{
+    margin: 0px;
+    font-family: helvetica;
+}
+body{
+    background-color: #edf2f4;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family:'antonio';
+}
+
+#heading{
+    text-align: center;
+    font-size: xx-large;
+    background-color: #ef233c;
+    color: white;
+    height: 100px;
+    margin: 0px;
+}
+
+#heading header h1{
+    position: sticky;
+    top: 0px;
+}
+
+#personal_info{
+    background-color: lightgray;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 25px;
+    position: relative;
+    left: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+#academic_info{
+    font-family: 'antonio';
+    font-size: 25px;
+    background-color: #2b2d42;
+    text-align: center;
+    color: white;
+    margin-left: 100px;
+    margin-right: 120px;
+    padding: 5px;
+    padding-top: 25px;
+    padding-bottom: 00px;
+    height: 90px; 
+    position: relative;
+    left: 10px;
+    box-shadow: 0  rgba(0, 0, 0, 0.2);
+    border-radius: 98px;
+}
+
+#personal_info:hover{
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition-timing-function: ease-in-out;
+    transition-delay: 90ms;
+    font-size: 25px;
+
+}
+
+#Personal_Informatio:hover{
+    font-size: 35px;
+}
+
+#userimage{
+    border-radius: 50%;
+    position: absolute;
+    float: right;
+    right: 200px;
+    top:10px;
+}
+
+
+#personal_info header h2{
+    float: left;
+    overflow: auto;
+    color: black;
+    font-size: x-large;
+    margin-left: 20px;
+}
+
+#info_list{
+    color: black;
+    overflow: auto;
+    text-align: left;
+    font-size: 20px;
+    position: relative;
+    left: 25px;
+}
+
+#Email{
+    text-decoration: none;
+    color: black;
+}
+
+#mail:hover{
+        font-family: "Honk", system-ui;
+        /* font-family: "Foldit", sans-serif; */
+        /* font-family: roboto;     */
+}
+
+     
+
+.check_result a{
+    text-align: center;
+    font-family:  Helvetica;
+    font-size: 20px;
+    display: inline-block;
+    padding: 10px;
+    background-color: #ef233c;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    border-radius: 8px;
+}
+
+.check_result:hover{
+    transition: transform 0.09s ease-in-out;
+    transform: scale(1.1);
+    font-size: 25px; 
+}
+
+#result{   
+    height: 1000px;
+    margin-left: 400px;
+    margin-right: 400px;  
+}
+
+#classx{
+    border-radius: 10px;
+    height: 400px;
+    padding: 0px;
+    width:48%;
+    margin: 0px;
+    text-align: center;
+    background-color: #0096FF	;
+    box-shadow: 10px 10px 3px 2px  #0096FF
+}
+
+
+
+#classx:hover{
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition-timing-function: ease-in-out;
+    transition-delay: 90ms;
+}
+
+#classx h3{
+    padding-top: 15px;
+    font-size: 30px;
+}
+
+.result_preview{
+    font-size: 25px;
+    text-align: left;
+    font-weight: 600;
+    list-style: none; 
+}
+
+#classxii h3{
+    padding-top: 15px;
+    font-size: 30px;
+}
+#classxii:hover{
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition-timing-function: ease-in-out;
+    transition-delay: 50ms;
+}
+
+#classxii{
+    border-radius: 10px;
+    height: 400px;
+    padding: 0px;
+    width:48%;
+    margin: 0px;
+    float: right;
+    position: relative;
+    /* bottom: 100px; */
+    bottom: 403px;
+    text-align: center;
+    background-color: #FFEA00    ;
+    box-shadow: 10px 10px 6px #FFEA00;
+}
+
+/* footer */
+
+#foot{
+    background-color: white;
+}
+
+#website_logo{
+    float: left;
+    padding: 100px;
+}
+
+#about_section a h1{
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    right:420px;
+    padding: 50px;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+#contact_us{
+    height: 500px;
+    width: 500px;
+    
+}
+
+#contact_us a h1{
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    padding: 50px;
+    color: white;
+    text-decoration: none;
+}
+
+#contact_us ul {
+    display: inline-block;
+}
+
+
+#contact_us ul li{
+    font-family: helvetica;
+    position: relative;
+    left: 90px;
+    list-style: none;
+}
+
+#enquiry{
+    height: 300px;
+    width: 500px;
+    display: inline-block;
+}
+
+#enquiry a h1{
+    text-align: center;
+    position: relative;
+    left: 90px;
+    display: inline-block;
+    padding: 50px;
+    color: white;
+    text-decoration: none;
+}
+
+#enquiry ul li{
+    font-family: helvetica;
+    position: relative;
+    left: 90px;
+    list-style: none;
+
+}
+
+#enquiry ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+
+#footer_heading{
+    float: right;
+    margin-right: 175px;
+}
+#footing{
+    text-align: center;
+    padding: 0px;
+    margin:0px;
+    background-color: black;
+    color:white;
+    height: 600px;
+}
+
+#vertical_line{
+    rotate: 90deg;
+    width: 600px;
+    position:relative;
+    right: 500px;
+    top: 225px;
+}
+
+#main_footer{
+    color: black;
+    text-align: center;
+    background-color: white;
+    height: 625px;
+    margin-right:100px ;
+    margin-left: 1300px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 18px;
+}
+
+#main_footer h2{
+    padding: 10px;
+    font-size: 39px;
+}
+
+
+#feedback_form{
+    background-color: white;
+    width: 33%;
+    border: 1px white solid;
+    color:black;
+    text-align: left;
+    border-radius: 18px;
+}
+
+#name{
+    height: 25px;
+    width: 200px;
+    background-color: white !important;
+    border-radius: 10px;
+    position: relative;
+    right: 70px;
+    border: 2px #2b2d42 solid;
+}
+
+#email{
+    
+    height: 25px;
+    width: 200px;
+    position: relative;
+    right: 70px;
+    background-color: white !important;
+    border-radius: 10px;
+    border: 2px #2b2d42 solid;
+}
+
+#rating{
+    height: 25px;
+    width: 200px;
+    position: relative;
+    right: 70px;
+    border-radius: 8px;
+    border: 2px #2b2d42 solid;
+}
+
+#comments{
+    border: 2px #2b2d42 solid;
+}
+
+#submit_feedback{
+    text-decoration: none;
+    background-color: #ef233c;
+}
+
+#feedback_button{
+    height: 100px;
+    width: 55px;
+}
+
+h4{
+    text-align: left;
+}

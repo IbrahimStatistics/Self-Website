@@ -1,0 +1,167 @@
+/* *{
+    /* background-color:azure ; */
+    /* background-color:rgb(47, 47, 47);*/
+    
+body{
+    background-color: #fffaff;
+}
+
+#heading{
+        color:white;
+        /* color:#d8315b; */
+        font-size: 50px;
+        /* font-family: "Pacifico", cursive;
+        font-weight: 400;
+        font-style: normal; */
+        font-family: "Bungee Inline", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        box-shadow: 10px 10px 5px 5px lightsteelblue;
+        /* , -10px -10px 5px 5px lightsteelblue ; */
+    }
+
+
+
+#heading:active{
+    transition-property: all;
+    transition-duration: 45ms;
+}
+
+#heading{
+    text-align: center;
+    /* font-family: Helvetica, sans-serif, Arial; */
+    padding: 60px;
+    background-color:#ef233c;
+    border-radius: 10px;
+}
+
+#profile:hover{
+    transform: rotate(360deg);
+}
+
+#profile{
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    display: inline-block;
+    border:10px #f8f7ff solid;
+    
+}
+
+#profile.hover{
+    height: 250px;
+    width:250px;
+}
+
+/* welcome
+login
+login_info
+uid
+checkbox
+submit button */
+
+#welcome{
+    background-color: #a2d2ff;
+    /* font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal; */
+    font-size: 22px;
+    font-family: "Bungee Inline", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#welcome.hover{
+    transition-duration: 50ms;
+    font-size: 20px;
+
+}
+
+#login{  
+    height: 500px;
+    background-color: #a2d2ff;
+    text-align: center;
+    font-size: larger;
+    border: 3px ;
+    border-radius: 10px;
+    margin-left:500px;
+    margin-right:500px;
+    padding: 20px;
+    box-shadow: 25px 25px 5px 5px slategrey; 
+    /* -25px 25px 5px 5px slategrey; */  
+}
+
+#login_info{
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #a2d2ff;
+}
+
+input.hover{
+    height: 30px;
+    width:225px;
+    transition-property: all;
+    transition-duration: 45ms;
+    transition-delay: 5ms;
+}
+
+#username{
+    height: 25px;
+    width: 200px;
+    background-color: white !important;
+    border-radius: 10px;
+}
+
+#password{
+    
+    height: 25px;
+    width: 200px;
+    background-color: white !important;
+    border-radius: 10px;
+}
+
+body{
+    font-family: Helvetica, sans-serif, Arial ;
+}
+
+.submit{
+    background-color:white;
+    padding: 5px 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10%;
+}
+
+#uid{
+    font-size: x-large;
+    background-color: #a2d2ff;
+
+
+}
+#checkbox{
+    background-color: #a2d2ff;
+}
+
+#submit_button{
+    background-color: #a2d2ff;
+}
+
+.submit:hover{
+    background-color: #ef233c;
+    transition-duration: 50ms;
+    font-size: 18px;
+    transition-delay: 50ms;
+    height: 50px;
+    width: 90px;
+}
+
+.submit{
+    height: 40px;
+    width: 80px;
+    font-family:helvetica;
+    background-color: #ef233c;
+    color: white;
+    border: 1px #ef233c solid;
+}
+
+
